@@ -1,5 +1,5 @@
 .header {
-  background-color: #043353;
+  background-color: #263C49;
   height: 70px;
   display: flex;
   justify-content: space-around;
@@ -10,13 +10,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Charmonman", cursive;
+  font-family: "Sen", sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
 
   span {
-    font-family: "Sen", sans-serif;
-    font-weight: 400;
+    font-family: "Charmonman", cursive;
+    color: #daa533;
+    font-weight: 700;
     font-size: 1rem;
+    margin-top: 5px;
+    position: relative;
   }
 }

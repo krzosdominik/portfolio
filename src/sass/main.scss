@@ -1,4 +1,5 @@
 @import './generic/normalize';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 
 @import './settings/fonts';
 @import './settings/all';
@@ -6,3 +7,5 @@
 @import './elements/header';
 @import './elements/navigation';
 @import './elements/home';
+@import './elements/decoration';
+@import './elements/_projects';

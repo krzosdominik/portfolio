@@ -9,16 +9,16 @@ const Projects = () => {
         <section id='projects' className='projects'>
             <h1 className="projects__header decoration">Projekty</h1>
             <div className="container">
-                <div class="row">
-                    {projects.map(({ id, name, github, url, technologies, image, description }) => (
+                <div className="row">
+                    {projects.map(item => (
                         <Project
-                            key={id}
-                            name={name}
-                            github={github}
-                            url={url}
-                            technologies={technologies}
-                            image={image}
-                            description={description}
+                            key={item.id}
+                            name={item.name}
+                            github={item.github}
+                            url={item.url}
+                            technologies={item.technologies}
+                            image={item.image}
+                            description={item.description}
                         />
                     ))}
                 </div>

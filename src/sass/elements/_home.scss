@@ -1,6 +1,7 @@
 .home {
   background: no-repeat url("../../assets/laptop-2838921_1920.jpg");
   background-size: cover;
+  background-position-x: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,40 +18,21 @@
   }
 }
 
+.home div {
+  z-index: 10;
+  text-align: center;
+}
+
 .home__header {
   font-size: 3rem;
 }
 
-@mixin lineDecor {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 2px;
-  background: #daa533;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, 50%);
-}
-
 .home__paragraph {
   font-size: 1.5rem;
-  position: relative;
-
-  &:before {
-    @include lineDecor();
-    left: -40%;
-  }
-
-  &:after {
-    @include lineDecor();
-    right: -40%;
-  }
 }
 
 .home__header,
 .home__paragraph {
-  z-index: 10;
-
   span {
     color: #daa533;
   }

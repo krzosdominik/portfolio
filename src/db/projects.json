@@ -15,7 +15,7 @@
         },
         {
             "id": 2,
-            "name": "mapApp",
+            "name": "map App",
             "github": "https://github.com/krzosdominik/zadanie",
             "url": "https://map-app-krzosdominik.netlify.com/",
             "technologies": [
@@ -50,7 +50,7 @@
                 "XD to HTML"
             ],
             "image": "../projects_images/landings.png",
-            "description": "Responsywny landing page na podstawie pliku xd, napisany przy użyciu Sass."
+            "description": "Responsywny landing page na podstawie pliku XD, napisany przy użyciu Sass."
         },
         {
             "id": 5,
@@ -63,7 +63,7 @@
                 "PSD to HTML"
             ],
             "image": "../projects_images/playOn.png",
-            "description": "Responsywny landing page na podstawie pliku psd, napisany przy użyciu Sass."
+            "description": "Responsywny landing page na podstawie pliku PSD, napisany przy użyciu Sass."
         },
         {
             "id": 6,
@@ -76,7 +76,20 @@
                 "PSD to HTML"
             ],
             "image": "../projects_images/cuda.png",
-            "description": "Responsywny landing page na podstawie pliku psd, napisany przy użyciu Sass."
+            "description": "Responsywny landing page na podstawie pliku PSD, napisany przy użyciu Sass."
+        },
+        {
+            "id": 7,
+            "name": "Angular House",
+            "github": "https://github.com/krzosdominik/angularhouse",
+            "url": "https://krzosdominik.github.io/angularhouse/",
+            "technologies": [
+                "HTML5",
+                "Sass",
+                "PNG to HTML"
+            ],
+            "image": "../projects_images/angularhouse.png",
+            "description": "Responsywny landing page na podstawie pliku PNG, napisany przy użyciu Sass."
         }
     ]
 }

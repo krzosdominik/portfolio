@@ -11,11 +11,11 @@ const Project = ({ name, github, url, technologies, image, description }) => {
                         <span className="project__technologies">{technologies.join(", ")}</span>
                     </h2>
                     <div className="icon-links">
-                        <a href={github} target="_blank" className="project__link">
-                            <i class="fab fa-github project__icon"></i>
+                        <a href={github} className="project__link">
+                            <i className="fab fa-github project__icon"></i>
                         </a>
-                        <a href={url} target="_blank" className="project__link">
-                            <i class="far fa-eye project__icon"></i>
+                        <a href={url} className="project__link">
+                            <i className="far fa-eye project__icon"></i>
                         </a>
                     </div>
                     <p className="project__description">{description}</p>

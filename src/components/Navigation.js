@@ -8,27 +8,28 @@ const options = {
     delay: 300
 };
 
-const Navigation = () => {
+const Navigation = ({ onClick, classes }) => {
+    const onNavigationClick = () => onClick();
     return (
-        <nav className="navigation">
+        <nav className={classes}>
             <ul className="navigation__list">
                 <li className="navigation__item">
-                    <Link to="home" {...options}>
+                    <Link to="home" onClick={onNavigationClick} {...options}>
                         Strona główna
                     </Link>
                 </li>
                 <li className="navigation__item">
-                    <Link to="projects" {...options}>
+                    <Link to="projects" onClick={onNavigationClick} {...options}>
                         Projekty
                     </Link>
                 </li>
                 <li className="navigation__item">
-                    <Link to="about" {...options}>
+                    <Link to="about" onClick={onNavigationClick} {...options}>
                         O mnie
                     </Link>
                 </li>
                 <li className="navigation__item">
-                    <Link to="contact" {...options}>
+                    <Link to="contact" onClick={onNavigationClick} {...options}>
                         Kontakt
                     </Link>
                 </li>

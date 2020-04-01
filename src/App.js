@@ -3,20 +3,22 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Projects from "./components/Projects";
+import About from './components/About';
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
     <BrowserRouter>
-       <Switch>
-       <Route exact path="/">
+      <Switch>
+        <Route exact path="/">
           <Header />
           <Main />
+          <About />
           <Skills />
           <Projects />
         </Route>
-       </Switch>
+      </Switch>
     </BrowserRouter>
   );
 }

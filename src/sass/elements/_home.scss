@@ -29,11 +29,13 @@
 
 .home__paragraph {
   font-size: 1.5rem;
+  font-family: $secondary__font;
+  word-spacing: 15px;
 }
 
 .home__header,
 .home__paragraph {
   span {
-    color: #daa533;
+    color: $text_color;
   }
 }

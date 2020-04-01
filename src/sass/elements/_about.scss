@@ -1,0 +1,48 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  color: $text_color;
+  background-color: $primary_color;
+
+  @include sectionBorder($secondary_color);
+
+  @media (max-width: 991px) {
+    text-align: center;
+  }
+}
+
+.about__header {
+  @include sectionHeader;
+}
+
+.about__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__photo {
+  img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px dashed $text_color;
+  }
+}
+
+.about__text {
+  font-size: 1.2rem;
+
+  strong {
+    color: $light_color;
+  }
+}
+
+.about__paragraph {
+  text-align: left;
+  @media (min-width: 991px) {
+    text-indent: 50px;
+  }
+}

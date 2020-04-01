@@ -2,6 +2,7 @@
   background-color: $secondary_color;
   color: $text_color;
   text-align: center;
+  padding-bottom: 50px;
 
   @include sectionBorder($primary_color);
 }
@@ -18,7 +19,7 @@
 
 .contact__paragraph,
 .contact__list {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .contact__list {

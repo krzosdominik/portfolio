@@ -1,15 +1,27 @@
 body {
-  color: #F7F7F7;
+  color: $light_color;
   background-color: #3F4E64;
-  font-family: "Sen", sans-serif;
+  font-family: $primary__font;
 }
 
 a {
-  color: #F7F7F7;
+  color: $light_color;
   text-decoration: none;
 }
 
 ul,
 ol {
   list-style: none;
+}
+
+@mixin sectionHeader {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@mixin sectionBorder ($color) {
+  border-bottom: 5px dashed $color;
+  border-top: 5px dashed $color;
 }

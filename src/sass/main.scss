@@ -1,6 +1,7 @@
 @import './generic/normalize';
 @import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
 
+@import './settings/colors';
 @import './settings/fonts';
 @import './settings/all';
 
@@ -8,6 +9,7 @@
 @import './elements/hamburger';
 @import './elements/navigation';
 @import './elements/home';
+@import './elements/about';
 @import './elements/decoration';
 @import './elements/_projects';
 @import './elements/skills';

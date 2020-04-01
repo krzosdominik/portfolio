@@ -1,20 +1,19 @@
 .skills {
-  color: #daa533;
+  color: $text_color;
   text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: lighten(#263c49, 5);
-  border-bottom: 5px dashed #263c49;
+  background-color: $secondary_color;
   padding-bottom: 50px;
+
+  @include sectionBorder($primary_color);
 }
 
 .skills__header {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  @include sectionHeader;
 }
 
-.skills__header,
 .item__name {
   text-transform: uppercase;
 }

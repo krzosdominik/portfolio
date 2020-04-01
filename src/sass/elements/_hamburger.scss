@@ -22,7 +22,7 @@
 @mixin hamburger-line {
   width: 100%;
   height: 3px;
-  background-color: #daa533;
+  background-color: $text_color;
   position: absolute;
 }
 

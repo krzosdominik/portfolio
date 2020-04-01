@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Pogodynka",
             "github": "https://github.com/krzosdominik/react-weather",
-            "url": "https://krzosdominik.netlify.com/",
+            "url": "https://krzosdominik.netlify.app/",
             "technologies": [
                 "React",
                 "Bootstrap",
@@ -17,7 +17,7 @@
             "id": 2,
             "name": "map App",
             "github": "https://github.com/krzosdominik/zadanie",
-            "url": "https://map-app-krzosdominik.netlify.com/",
+            "url": "https://map-app-krzosdominik.netlify.app/",
             "technologies": [
                 "React",
                 "Bootstrap",
@@ -30,7 +30,7 @@
             "id": 3,
             "name": "COMPANIES REVIEW",
             "github": "https://github.com/krzosdominik/companies-review",
-            "url": "https://companies-review.netlify.com/",
+            "url": "https://companies-review.netlify.app/",
             "technologies": [
                 "React",
                 "react-table",

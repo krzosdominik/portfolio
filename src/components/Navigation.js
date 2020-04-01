@@ -19,13 +19,18 @@ const Navigation = ({ onClick, classes }) => {
                     </Link>
                 </li>
                 <li className="navigation__item">
-                    <Link to="projects" onClick={onNavigationClick} {...options}>
-                        Projekty
+                    <Link to="about" onClick={onNavigationClick} {...options}>
+                        O mnie
                     </Link>
                 </li>
                 <li className="navigation__item">
-                    <Link to="about" onClick={onNavigationClick} {...options}>
-                        O mnie
+                    <Link to="skills" onClick={onNavigationClick} {...options}>
+                        Umiejętności
+                    </Link>
+                </li>
+                <li className="navigation__item">
+                    <Link to="projects" onClick={onNavigationClick} {...options}>
+                        Projekty
                     </Link>
                 </li>
                 <li className="navigation__item">

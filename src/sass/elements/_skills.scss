@@ -1,0 +1,31 @@
+.skills {
+  color: #daa533;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lighten(#263c49, 5);
+  border-bottom: 5px dashed #263c49;
+  padding-bottom: 50px;
+}
+
+.skills__header {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.skills__header,
+.item__name {
+  text-transform: uppercase;
+}
+
+.item__name,
+svg {
+  transition: transform 1s;
+}
+
+.skills__item:hover {
+  svg {
+    transform: scale(1.2);
+  }
+}

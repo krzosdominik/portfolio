@@ -1,0 +1,95 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Pogodynka",
+            "github": "https://github.com/krzosdominik/react-weather",
+            "url": "https://krzosdominik.netlify.com/",
+            "technologies": [
+                "React",
+                "Bootstrap",
+                "OpenWeatherMap"
+            ],
+            "image": "../projects_images/pogodynka.png",
+            "description": "Aplikacja dla podanego przez użytkownika miasta wyświetla aktualną pogodę lub prognozę pogody na 5 dni."
+        },
+        {
+            "id": 2,
+            "name": "map App",
+            "github": "https://github.com/krzosdominik/zadanie",
+            "url": "https://map-app-krzosdominik.netlify.com/",
+            "technologies": [
+                "React",
+                "Bootstrap",
+                "React-Leaflet"
+            ],
+            "image": "../projects_images/mapApp.png",
+            "description": "Aplikacja na podstawie współrzędnych wyświetla markery punktów na mapie. Mapa jest dostarczana przez React-Leaflet."
+        },
+        {
+            "id": 3,
+            "name": "COMPANIES REVIEW",
+            "github": "https://github.com/krzosdominik/companies-review",
+            "url": "https://companies-review.netlify.com/",
+            "technologies": [
+                "React",
+                "react-table",
+                "Bootstrap"
+            ],
+            "image": "../projects_images/companies-review.png",
+            "description": "Aplikacja dla wybranej firmy wyświetla informacje dotyczące dochódów oraz rysuje graf średnich miesiecznych dochodów."
+        },
+        {
+            "id": 4,
+            "name": "Landings",
+            "github": "https://github.com/krzosdominik/landings",
+            "url": "https://krzosdominik.github.io/landings",
+            "technologies": [
+                "HTML5",
+                "Sass",
+                "XD to HTML"
+            ],
+            "image": "../projects_images/landings.png",
+            "description": "Responsywny landing page na podstawie pliku XD, napisany przy użyciu Sass."
+        },
+        {
+            "id": 5,
+            "name": "PlayOn",
+            "github": "https://github.com/krzosdominik/playon_landing-page",
+            "url": "https://krzosdominik.github.io/playon_landing-page/",
+            "technologies": [
+                "HTML5",
+                "Sass",
+                "PSD to HTML"
+            ],
+            "image": "../projects_images/playOn.png",
+            "description": "Responsywny landing page na podstawie pliku PSD, napisany przy użyciu Sass."
+        },
+        {
+            "id": 6,
+            "name": "Cuda",
+            "github": "https://github.com/krzosdominik/cuda_landing-page",
+            "url": "https://krzosdominik.github.io/cuda_landing-page/",
+            "technologies": [
+                "HTML5",
+                "Sass",
+                "PSD to HTML"
+            ],
+            "image": "../projects_images/cuda.png",
+            "description": "Responsywny landing page na podstawie pliku PSD, napisany przy użyciu Sass."
+        },
+        {
+            "id": 7,
+            "name": "Angular House",
+            "github": "https://github.com/krzosdominik/angularhouse",
+            "url": "https://krzosdominik.github.io/angularhouse/",
+            "technologies": [
+                "HTML5",
+                "Sass",
+                "PNG to HTML"
+            ],
+            "image": "../projects_images/angularhouse.png",
+            "description": "Responsywny landing page na podstawie pliku PNG, napisany przy użyciu Sass."
+        }
+    ]
+}

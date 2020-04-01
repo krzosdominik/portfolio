@@ -1,0 +1,25 @@
+.header {
+  background-color: #263C49;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $light_color;
+}
+
+.header__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $primary__font;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+  span {
+    font-family: $secondary__font;
+    color: $text_color;
+    font-weight: 700;
+    font-size: 1rem;
+    position: relative;
+  }
+}

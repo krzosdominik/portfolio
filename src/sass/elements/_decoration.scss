@@ -1,0 +1,13 @@
+.decoration {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    border-top: 2px solid $text_color;
+    width: 120px;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

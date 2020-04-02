@@ -1,13 +1,10 @@
 .skills {
   color: $text_color;
+  background-color: $secondary_color;
   text-align: center;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: $secondary_color;
-  padding-bottom: 50px;
 
-  @include sectionBorder($primary_color);
+  @include sectionSettings($primary_color);
 }
 
 .skills__header {

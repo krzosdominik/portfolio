@@ -1,12 +1,9 @@
 .about {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
   color: $text_color;
   background-color: $primary_color;
 
-  @include sectionBorder($secondary_color);
+  @include sectionSettings($secondary_color);
 
   @media (max-width: 991px) {
     text-align: center;

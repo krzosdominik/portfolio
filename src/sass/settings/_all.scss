@@ -21,7 +21,12 @@ ol {
   text-transform: uppercase;
 }
 
-@mixin sectionBorder ($color) {
+@mixin sectionSettings ($color) {
   border-bottom: 5px dashed $color;
   border-top: 5px dashed $color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
 }

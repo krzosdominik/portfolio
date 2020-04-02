@@ -2,9 +2,9 @@
   background-color: $secondary_color;
   color: $text_color;
   text-align: center;
-  padding-bottom: 50px;
 
-  @include sectionBorder($primary_color);
+  @include sectionSettings($primary_color);
+  padding-bottom: 0;
 }
 
 .contact__header {
